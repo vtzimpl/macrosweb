@@ -1,0 +1,22 @@
+2021-08-28T17:14:02+00:00 CRITICAL Uncaught Error: Class 'XMLReader' not found in /var/www/macrosweb.org/wp-content/plugins/athemes-starter-sites/import/wp-content-importer-v2/WXRImporter.php:122
+Stack trace:
+#0 /var/www/macrosweb.org/wp-content/plugins/athemes-starter-sites/import/wp-content-importer-v2/WXRImporter.php(345): WXRImporter->get_reader()
+#1 /var/www/macrosweb.org/wp-content/plugins/athemes-starter-sites/import/class-import.php(400): WXRImporter->import()
+#2 /var/www/macrosweb.org/wp-includes/class-wp-hook.php(303): Athemes_Starter_Sites_Import->ajax_import_contents()
+#3 /var/www/macrosweb.org/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/macrosweb.org/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/macrosweb.org/wp-admin/admin-ajax.php(187): do_action()
+#6 {main}
+  thrown in /var/www/macrosweb.org/wp-content/plugins/athemes-starter-sites/import/wp-content-importer-v2/WXRImporter.php on line 122
+
+2021-08-28T17:14:22+00:00 CRITICAL Uncaught Error: Class 'XMLReader' not found in /var/www/macrosweb.org/wp-content/plugins/athemes-starter-sites/import/wp-content-importer-v2/WXRImporter.php:122
+Stack trace:
+#0 /var/www/macrosweb.org/wp-content/plugins/athemes-starter-sites/import/wp-content-importer-v2/WXRImporter.php(345): WXRImporter->get_reader()
+#1 /var/www/macrosweb.org/wp-content/plugins/athemes-starter-sites/import/class-import.php(400): WXRImporter->import()
+#2 /var/www/macrosweb.org/wp-includes/class-wp-hook.php(303): Athemes_Starter_Sites_Import->ajax_import_contents()
+#3 /var/www/macrosweb.org/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/macrosweb.org/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/macrosweb.org/wp-admin/admin-ajax.php(187): do_action()
+#6 {main}
+  thrown in /var/www/macrosweb.org/wp-content/plugins/athemes-starter-sites/import/wp-content-importer-v2/WXRImporter.php on line 122
+
